@@ -8,21 +8,37 @@ Pushing the application logs to cloudwatch to create the alaram in case any anam
 IAM Policy:
 
 {
+  
   "Version": "2012-10-17",
+  
   "Statement": [
+  
     {
+    
       "Effect": "Allow",
+      
       "Action": [
+      
         "logs:CreateLogGroup",
+        
         "logs:CreateLogStream",
+        
         "logs:PutLogEvents",
+        
         "logs:DescribeLogStreams"
+    
     ],
+    
       "Resource": [
+      
         "arn:aws:logs:*:*:*"
+    
     ]
+  
   }
+ 
  ]
+
 }
 
 2: Configure the IAM role to an instance or bunch of instancess from where we wanted to push the logs [application] to CloudWatch "logs group".
