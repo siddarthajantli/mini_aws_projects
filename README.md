@@ -1,6 +1,7 @@
 Cloudwatch Alarma Setup for custom logs
 -----------------------------------------------------------------------
 Pushing the application logs to cloudwatch to create the alaram in case any anamoly in the system.
+
 **Steps to follow**
 
 1: Create the role with appropriate policy configure to grant access to Cloudwatch.
