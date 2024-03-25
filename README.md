@@ -8,7 +8,6 @@ Pushing the application logs to cloudwatch to create the alaram in case any anam
 IAM Policy:
 
 {
-  
   "Version": "2012-10-17",
   
   "Statement": [
@@ -30,9 +29,7 @@ IAM Policy:
     ],
     
       "Resource": [
-      
-        "arn:aws:logs:*:*:*"
-    
+        "arn:aws:logs:*:*:*"  
     ]
   
   }
