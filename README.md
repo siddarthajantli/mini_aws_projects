@@ -27,15 +27,15 @@ IAM Policy:
         
         "logs:DescribeLogStreams"
     
-    ],
+      ],
     
       "Resource": [
         "arn:aws:logs:*:*:*"  
-    ]
+      ]
+    
+    }
   
-  }
- 
- ]
+  ]
 
 }
 
